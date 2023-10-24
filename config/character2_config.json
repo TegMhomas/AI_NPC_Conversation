@@ -1,0 +1,11 @@
+{
+    "workspace": "your_workspace_id",
+    "character_name": "your_character2_name",
+    "user": {
+        "endUserId": "your_end_user_id",
+        "givenName": "your_character2_name",
+        "gender": "your_character2_gender",
+        "age": "your_character2_age",
+        "role": "your_character2_role"
+    }
+}
