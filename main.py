@@ -21,7 +21,7 @@ def main():
             print(message)
             LogManager.save_message_to_log(message)
             messages[(i + 1) % len(characters)] = message
-            time.sleep(3)
+            time.sleep(450)
 
 if __name__ == "__main__":
     main()
