@@ -1,11 +1,11 @@
-{
-    "workspace": "your_workspace_id",
-    "character_name": "your_character1_name",
+ {
+    "workspace": "workspaces/test1-ln9ic",
+    "character_name": "test1",
     "user": {
-        "endUserId": "your_end_user_id",
-        "givenName": "your_character1_name",
-        "gender": "your_character1_gender",
-        "age": "your_character1_age",
-        "role": "your_character1_role"
+        "endUserId": "12345",
+        "givenName": "Sherlock",
+        "gender": "female",
+        "age": "27",
+        "role": "detective"
     }
 }

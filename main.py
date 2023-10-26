@@ -18,10 +18,10 @@ def main():
     while True:
         for i in range(len(characters)):
             message = characters[i].send_text(messages[i])
-            print(message)
+            print(characters[i].character_name + ": " + message)
             LogManager.save_message_to_log(message)
             messages[(i + 1) % len(characters)] = message
-            time.sleep(450)
+            time.sleep(3)
 
 if __name__ == "__main__":
     main()

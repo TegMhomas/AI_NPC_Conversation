@@ -1,6 +1,7 @@
 import requests
 
 class InworldCharacter:
+
     BASE_URL = "https://studio.inworld.ai/v1/"
 
     def __init__(self, api_key, workspace, character_name, user):
@@ -15,6 +16,7 @@ class InworldCharacter:
         url = f'{self.BASE_URL}{self.workspace}/characters/{self.character_name}:openSession'
         headers = {"Content-Type": "application/json", "authorization": self.api_key}
         response = requests.post(url, json={"name": f"{self.workspace}/characters/{self.character_name}", "user": self.user}, headers=headers)
+        print(response.content)
         data = response.json()
         self.session_id = data["name"]
         self.character_id = data['sessionCharacters'][0]['character']

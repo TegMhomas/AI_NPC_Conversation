@@ -8,7 +8,7 @@ class ConfigManager:
 
     @staticmethod
     def load_general_config():
-        return ConfigManager.load_config('config/config.json')
+        return ConfigManager.load_config('config/general_config.json')
 
 class LogManager:
     @staticmethod

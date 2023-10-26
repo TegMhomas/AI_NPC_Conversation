@@ -1,4 +1,4 @@
 {
-    "api_key": "Basic your_api_key",
+    "api_key": "Basic ",
     "character_configs": ["character1_config.json", "character2_config.json"]
 }
